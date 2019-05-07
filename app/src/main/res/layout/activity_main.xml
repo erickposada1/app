@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6789AD"
+    android:backgroundTintMode="src_over"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="69dp"
+        android:text="Bienvenidos"
+        android:textAlignment="center"
+        android:textColor="#927B5D"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="302dp"
+        android:layout_height="156dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="260dp"
+        android:text="Soccercenter es una aplicación donde podras conocer los resultados que te interesen de cualquier parte del mundo solo con registrarte"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:onClick="salir"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+    <Button
+        android:id="@+id/bt1"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="238dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="12dp"
+        android:text="Siguiente"
+        android:textSize="24sp" />
+
+</RelativeLayout>
